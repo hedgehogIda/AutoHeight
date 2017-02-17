@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9815378F1E5699B3003EB04E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9815378E1E5699B3003EB04E /* main.m */; };
+		981537921E5699B4003EB04E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 981537911E5699B4003EB04E /* AppDelegate.m */; };
+		981537951E5699B4003EB04E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981537941E5699B4003EB04E /* ViewController.m */; };
+		981537981E5699B4003EB04E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981537961E5699B4003EB04E /* Main.storyboard */; };
+		9815379A1E5699B4003EB04E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981537991E5699B4003EB04E /* Assets.xcassets */; };
+		9815379D1E5699B4003EB04E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9815379B1E5699B4003EB04E /* LaunchScreen.storyboard */; };
+		981537A81E5699B4003EB04E /* AutoCalculateHeightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 981537A71E5699B4003EB04E /* AutoCalculateHeightTests.m */; };
+		981537B31E5699B4003EB04E /* AutoCalculateHeightUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 981537B21E5699B4003EB04E /* AutoCalculateHeightUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		981537A41E5699B4003EB04E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 981537821E5699B3003EB04E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 981537891E5699B3003EB04E;
+			remoteInfo = AutoCalculateHeight;
+		};
+		981537AF1E5699B4003EB04E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 981537821E5699B3003EB04E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 981537891E5699B3003EB04E;
+			remoteInfo = AutoCalculateHeight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9815378A1E5699B3003EB04E /* AutoCalculateHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoCalculateHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9815378E1E5699B3003EB04E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		981537901E5699B3003EB04E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		981537911E5699B4003EB04E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		981537931E5699B4003EB04E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		981537941E5699B4003EB04E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		981537971E5699B4003EB04E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		981537991E5699B4003EB04E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9815379C1E5699B4003EB04E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9815379E1E5699B4003EB04E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		981537A31E5699B4003EB04E /* AutoCalculateHeightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoCalculateHeightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		981537A71E5699B4003EB04E /* AutoCalculateHeightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoCalculateHeightTests.m; sourceTree = "<group>"; };
+		981537A91E5699B4003EB04E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		981537AE1E5699B4003EB04E /* AutoCalculateHeightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoCalculateHeightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		981537B21E5699B4003EB04E /* AutoCalculateHeightUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoCalculateHeightUITests.m; sourceTree = "<group>"; };
+		981537B41E5699B4003EB04E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		981537871E5699B3003EB04E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981537A01E5699B4003EB04E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981537AB1E5699B4003EB04E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		981537811E5699B3003EB04E = {
+			isa = PBXGroup;
+			children = (
+				9815378C1E5699B3003EB04E /* AutoCalculateHeight */,
+				981537A61E5699B4003EB04E /* AutoCalculateHeightTests */,
+				981537B11E5699B4003EB04E /* AutoCalculateHeightUITests */,
+				9815378B1E5699B3003EB04E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9815378B1E5699B3003EB04E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9815378A1E5699B3003EB04E /* AutoCalculateHeight.app */,
+				981537A31E5699B4003EB04E /* AutoCalculateHeightTests.xctest */,
+				981537AE1E5699B4003EB04E /* AutoCalculateHeightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9815378C1E5699B3003EB04E /* AutoCalculateHeight */ = {
+			isa = PBXGroup;
+			children = (
+				981537901E5699B3003EB04E /* AppDelegate.h */,
+				981537911E5699B4003EB04E /* AppDelegate.m */,
+				981537931E5699B4003EB04E /* ViewController.h */,
+				981537941E5699B4003EB04E /* ViewController.m */,
+				981537961E5699B4003EB04E /* Main.storyboard */,
+				981537991E5699B4003EB04E /* Assets.xcassets */,
+				9815379B1E5699B4003EB04E /* LaunchScreen.storyboard */,
+				9815379E1E5699B4003EB04E /* Info.plist */,
+				9815378D1E5699B3003EB04E /* Supporting Files */,
+			);
+			path = AutoCalculateHeight;
+			sourceTree = "<group>";
+		};
+		9815378D1E5699B3003EB04E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9815378E1E5699B3003EB04E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		981537A61E5699B4003EB04E /* AutoCalculateHeightTests */ = {
+			isa = PBXGroup;
+			children = (
+				981537A71E5699B4003EB04E /* AutoCalculateHeightTests.m */,
+				981537A91E5699B4003EB04E /* Info.plist */,
+			);
+			path = AutoCalculateHeightTests;
+			sourceTree = "<group>";
+		};
+		981537B11E5699B4003EB04E /* AutoCalculateHeightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				981537B21E5699B4003EB04E /* AutoCalculateHeightUITests.m */,
+				981537B41E5699B4003EB04E /* Info.plist */,
+			);
+			path = AutoCalculateHeightUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		981537891E5699B3003EB04E /* AutoCalculateHeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 981537B71E5699B4003EB04E /* Build configuration list for PBXNativeTarget "AutoCalculateHeight" */;
+			buildPhases = (
+				981537861E5699B3003EB04E /* Sources */,
+				981537871E5699B3003EB04E /* Frameworks */,
+				981537881E5699B3003EB04E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoCalculateHeight;
+			productName = AutoCalculateHeight;
+			productReference = 9815378A1E5699B3003EB04E /* AutoCalculateHeight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		981537A21E5699B4003EB04E /* AutoCalculateHeightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 981537BA1E5699B4003EB04E /* Build configuration list for PBXNativeTarget "AutoCalculateHeightTests" */;
+			buildPhases = (
+				9815379F1E5699B4003EB04E /* Sources */,
+				981537A01E5699B4003EB04E /* Frameworks */,
+				981537A11E5699B4003EB04E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				981537A51E5699B4003EB04E /* PBXTargetDependency */,
+			);
+			name = AutoCalculateHeightTests;
+			productName = AutoCalculateHeightTests;
+			productReference = 981537A31E5699B4003EB04E /* AutoCalculateHeightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		981537AD1E5699B4003EB04E /* AutoCalculateHeightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 981537BD1E5699B4003EB04E /* Build configuration list for PBXNativeTarget "AutoCalculateHeightUITests" */;
+			buildPhases = (
+				981537AA1E5699B4003EB04E /* Sources */,
+				981537AB1E5699B4003EB04E /* Frameworks */,
+				981537AC1E5699B4003EB04E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				981537B01E5699B4003EB04E /* PBXTargetDependency */,
+			);
+			name = AutoCalculateHeightUITests;
+			productName = AutoCalculateHeightUITests;
+			productReference = 981537AE1E5699B4003EB04E /* AutoCalculateHeightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		981537821E5699B3003EB04E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ida;
+				TargetAttributes = {
+					981537891E5699B3003EB04E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					981537A21E5699B4003EB04E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 981537891E5699B3003EB04E;
+					};
+					981537AD1E5699B4003EB04E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 981537891E5699B3003EB04E;
+					};
+				};
+			};
+			buildConfigurationList = 981537851E5699B3003EB04E /* Build configuration list for PBXProject "AutoCalculateHeight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 981537811E5699B3003EB04E;
+			productRefGroup = 9815378B1E5699B3003EB04E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				981537891E5699B3003EB04E /* AutoCalculateHeight */,
+				981537A21E5699B4003EB04E /* AutoCalculateHeightTests */,
+				981537AD1E5699B4003EB04E /* AutoCalculateHeightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		981537881E5699B3003EB04E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9815379D1E5699B4003EB04E /* LaunchScreen.storyboard in Resources */,
+				9815379A1E5699B4003EB04E /* Assets.xcassets in Resources */,
+				981537981E5699B4003EB04E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981537A11E5699B4003EB04E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981537AC1E5699B4003EB04E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		981537861E5699B3003EB04E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981537951E5699B4003EB04E /* ViewController.m in Sources */,
+				981537921E5699B4003EB04E /* AppDelegate.m in Sources */,
+				9815378F1E5699B3003EB04E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9815379F1E5699B4003EB04E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981537A81E5699B4003EB04E /* AutoCalculateHeightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981537AA1E5699B4003EB04E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981537B31E5699B4003EB04E /* AutoCalculateHeightUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		981537A51E5699B4003EB04E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 981537891E5699B3003EB04E /* AutoCalculateHeight */;
+			targetProxy = 981537A41E5699B4003EB04E /* PBXContainerItemProxy */;
+		};
+		981537B01E5699B4003EB04E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 981537891E5699B3003EB04E /* AutoCalculateHeight */;
+			targetProxy = 981537AF1E5699B4003EB04E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		981537961E5699B4003EB04E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				981537971E5699B4003EB04E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9815379B1E5699B4003EB04E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9815379C1E5699B4003EB04E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		981537B51E5699B4003EB04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		981537B61E5699B4003EB04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		981537B81E5699B4003EB04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutoCalculateHeight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TSX.AutoCalculateHeight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		981537B91E5699B4003EB04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutoCalculateHeight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TSX.AutoCalculateHeight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		981537BB1E5699B4003EB04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutoCalculateHeightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TSX.AutoCalculateHeightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoCalculateHeight.app/AutoCalculateHeight";
+			};
+			name = Debug;
+		};
+		981537BC1E5699B4003EB04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutoCalculateHeightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TSX.AutoCalculateHeightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoCalculateHeight.app/AutoCalculateHeight";
+			};
+			name = Release;
+		};
+		981537BE1E5699B4003EB04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AutoCalculateHeightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TSX.AutoCalculateHeightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AutoCalculateHeight;
+			};
+			name = Debug;
+		};
+		981537BF1E5699B4003EB04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AutoCalculateHeightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TSX.AutoCalculateHeightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AutoCalculateHeight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		981537851E5699B3003EB04E /* Build configuration list for PBXProject "AutoCalculateHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981537B51E5699B4003EB04E /* Debug */,
+				981537B61E5699B4003EB04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		981537B71E5699B4003EB04E /* Build configuration list for PBXNativeTarget "AutoCalculateHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981537B81E5699B4003EB04E /* Debug */,
+				981537B91E5699B4003EB04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		981537BA1E5699B4003EB04E /* Build configuration list for PBXNativeTarget "AutoCalculateHeightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981537BB1E5699B4003EB04E /* Debug */,
+				981537BC1E5699B4003EB04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		981537BD1E5699B4003EB04E /* Build configuration list for PBXNativeTarget "AutoCalculateHeightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981537BE1E5699B4003EB04E /* Debug */,
+				981537BF1E5699B4003EB04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 981537821E5699B3003EB04E /* Project object */;
+}
